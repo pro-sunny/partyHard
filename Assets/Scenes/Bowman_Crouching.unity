@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bowman_CrounchWalk
       objectReference: {fileID: 0}
+    - target: {fileID: 1894219050491974193, guid: aca80d8ef70c3c349b0f3dd2f94e504b, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82fa7858129841d4195a90e982c79f23, type: 2}
     - target: {fileID: 5866666021909216657, guid: aca80d8ef70c3c349b0f3dd2f94e504b, type: 3}
       propertyPath: m_Controller
       value: 
@@ -419,6 +423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bowman_Crouching
       objectReference: {fileID: 0}
+    - target: {fileID: 1894219050491974193, guid: 7cffcc65c7a4c494b85b37dc4b2dd7a1, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5cf2cb48e76924c4e932d8c57e75576e, type: 2}
     - target: {fileID: 5866666021909216657, guid: 7cffcc65c7a4c494b85b37dc4b2dd7a1, type: 3}
       propertyPath: m_Controller
       value: 
